@@ -17,6 +17,6 @@ This is a simple Streamlit application that showcases information about me, Bhav
 
 ## Demo
 ![Alt text](resume.png)
-
+---
 ## Live Preview
 [Click!](https://bhavyamistryresume.streamlit.app/)
