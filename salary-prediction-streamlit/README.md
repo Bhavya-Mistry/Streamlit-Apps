@@ -22,4 +22,4 @@ The model is trained using linear regression and saved as a pickle file (`salary
 - Simple, clean UI built with Streamlit.
 - Input field for years of experience (accepts decimal values).
 - Button to predict salary using the trained model.
-- Displays predicted salary in Indian Rupees (₹).
+- Displays predicted salary
