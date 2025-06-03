@@ -9,12 +9,15 @@ st.set_page_config(page_title="Flight Price Predictor", layout="centered")
 
 st.title("🛫 Flight Price Prediction App")
 
-# Load model and scaler
-with open("flight-price-prediction/decision_tree_model.pkl", "rb") as model_file:
-    model = pickle.load(model_file)
+scaler_path = os.path.join(os.path.dirname(__file__), 'scaler.pkl')
+model_path = os.path.join(os.path.dirname(__file__), 'decision_tree_model.pkl')
 
-with open("flight-price-prediction\scaler.pkl", "rb") as scaler_file:
-    scaler = pickle.load(scaler_file)
+# Load model and scaler
+with open(scaler_path, "rb") as f:
+    model = pickle.load(f)
+
+with open(model_path, "rb") as f:
+    scaler = pickle.load(f)
 
 # All columns your model expects
 input_columns = ['Duration', 'Airline_Air India', 'Airline_GoAir', 'Airline_IndiGo',
