@@ -13,10 +13,10 @@ scaler_path = os.path.join(os.path.dirname(__file__), 'scaler.pkl')
 model_path = os.path.join(os.path.dirname(__file__), 'decision_tree_model.pkl')
 
 # Load model and scaler
-with open(scaler_path, "rb") as f:
+with open(model_path, "rb") as f:
     model = pickle.load(f)
 
-with open(model_path, "rb") as f:
+with open(scaler_path, "rb") as f:
     scaler = pickle.load(f)
 
 # All columns your model expects
