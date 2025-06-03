@@ -9,3 +9,4 @@ matplotlib
 opencv-python-headless
 nltk
 seaborn
+os
