@@ -12,3 +12,8 @@ This is a simple Streamlit application that showcases information about me, Bhav
 * **Experience:** Details about my internship.
 * **Projects:** Highlights of some of my key data science and computer vision projects.
 * **Contact Info:** Ways to get in touch with me.
+
+---
+
+## Demo
+![Alt text](resume.png)
