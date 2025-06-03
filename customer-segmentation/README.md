@@ -31,3 +31,7 @@ These segments are based on the customers' **RFM (Recency, Frequency, and Moneta
 
 ![Image 1](Output-Images/img1.png)
 ![Image 2](Output-Images/img2.png)
+
+---
+## Live Preview
+[Click!](https://customerssegmentation.streamlit.app/)
