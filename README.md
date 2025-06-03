@@ -1,4 +1,4 @@
-# Basics with Streamlit
+# Streamlit Basics With Live, Interactive Projects
 
 Welcome to the Basics with Streamlit repository! This collection features a variety of interactive web applications built using Streamlit, designed to help you understand fundamental concepts in Artificial Intelligence and Machine Learning through hands-on experimentation.
 
