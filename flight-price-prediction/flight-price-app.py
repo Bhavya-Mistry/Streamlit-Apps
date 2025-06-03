@@ -10,10 +10,10 @@ st.set_page_config(page_title="Flight Price Predictor", layout="centered")
 st.title("🛫 Flight Price Prediction App")
 
 # Load model and scaler
-with open("flight-price-prediction\decision_tree_model.pkl", "rb") as model_file:
+with open("decision_tree_model.pkl", "rb") as model_file:
     model = pickle.load(model_file)
 
-with open("flight-price-prediction\scaler.pkl", "rb") as scaler_file:
+with open("scaler.pkl", "rb") as scaler_file:
     scaler = pickle.load(scaler_file)
 
 # All columns your model expects
