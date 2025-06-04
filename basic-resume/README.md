@@ -1,4 +1,4 @@
-# Bhavya Mistry's Personal Info App
+# Personal Info App
 
 This is a simple Streamlit application that showcases information about me, Bhavya Mistry. It's a quick way to learn about my academic achievements, skills, projects, and contact details.
 
