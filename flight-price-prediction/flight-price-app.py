@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 import numpy as np
 from datetime import datetime
-
+import os
 # Set page title
 st.set_page_config(page_title="Flight Price Predictor", layout="centered")
 
