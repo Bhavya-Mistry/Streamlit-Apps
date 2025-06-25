@@ -23,3 +23,6 @@ The model is trained using linear regression and saved as a pickle file (`salary
 - Input field for years of experience (accepts decimal values).
 - Button to predict salary using the trained model.
 - Displays predicted salary
+---
+## Live Demo
+https://salary-predictor-model.streamlit.app/
